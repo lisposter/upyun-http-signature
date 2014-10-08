@@ -1,0 +1,29 @@
+{
+  "name": "upyun-http-signature",
+  "version": "0.1.0",
+  "description": "a simple lib for generate a signature for upyun http REST api",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browserify": "^6.0.3",
+    "istanbul": "^0.3.2",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4",
+    "uglify-js": "^2.4.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lisposter/upyun-http-signature.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lisposter/upyun-http-signature/issues"
+  },
+  "homepage": "https://github.com/lisposter/upyun-http-signature",
+  "keywords": [],
+  "author": "Leigh Zhu",
+  "license": "MIT"
+}
