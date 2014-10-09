@@ -18,6 +18,11 @@ module.exports = exports.makeSign = function(method, uri, date, length, password
     if(uri.indexOf('?') >= 0) {
         uri = uri.split('?')[0];
     }
+
+    if(uri.indexOf('/') !== 0) {
+        uri = '/' + uri;
+    }
+
     var sign = method + '&' + uri + '&' + date + '&' + length + '&' + md5sum(password);
     return 'UpYun ' + operator + ':' + md5sum(sign);
 };
