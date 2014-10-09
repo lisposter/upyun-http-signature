@@ -2,6 +2,7 @@
 [![NPM version](https://img.shields.io/npm/v/upyun-http-signature.svg?style=flat)](https://www.npmjs.org/package/upyun-http-signature)
 [![Build status](https://img.shields.io/travis/lisposter/upyun-http-signature.svg?style=flat)](https://travis-ci.org/lisposter/upyun-http-signature)
 [![Test coverage](https://img.shields.io/coveralls/lisposter/upyun-http-signature.svg?style=flat)](https://coveralls.io/r/lisposter/upyun-http-signature?branch=master)
+
 a simple lib for generate a signature for upyun http REST api
 
 ## Installation

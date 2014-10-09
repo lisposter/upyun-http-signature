@@ -1,6 +1,6 @@
 {
   "name": "upyun-http-signature",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "a simple lib for generate a signature for upyun http REST api",
   "main": "index.js",
   "dependencies": {
